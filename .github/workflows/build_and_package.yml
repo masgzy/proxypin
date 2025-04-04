@@ -23,6 +23,7 @@ jobs:
 
       - name: Build C++ part
         run: |
+          cd linux
           mkdir build
           cd build
           cmake ..
